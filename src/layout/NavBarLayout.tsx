@@ -68,52 +68,47 @@ const NavBarComponent = () => {
               } absolute inset-x-0  w-full px-6 py-4 z-40 transition-all duration-300 ease-in-out bg-whit  border-t-4 sm:border-none  bg-white lg:mt-0  lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center`}
             >
               <div className="flex flex-col  sm:items-start -mx-6 lg:flex-row lg:items-center ">
-            <button
-                  
+                <button
                   type="button"
-                  className="px-3 py-2 mx-3 mt-2  text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-tertiary   "
+                  className="px-3 py-2 mx-3 mt-2  text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:text-white hover:bg-primary    "
                 >
                   Home
                 </button>
-                
-                  <button
-                    type="button"
-                    className="px-3 py-2 mx-3 mt-2  text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-tertiary  "
-                  >
-                    About Us
-                  </button>
-               
+
+                <button
+                  type="button"
+                  className="px-3 py-2 mx-3 mt-2  text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:text-white hover:bg-primary   "
+                >
+                  About Us
+                </button>
 
                 <hr className="  lg:hidden border-1  w-full shadow-none border-gray-300 " />
 
-      
-                  <button
-                    type="button"
-                    className="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-tertiary hover:text-indigo-700 hover:bg-red-200  "
-                  >
-                   Contact Us
-                  </button>
-               
+                <button
+                  type="button"
+                  className="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-tertiary hover:text-white hover:bg-primary  "
+                >
+                  Contact Us
+                </button>
 
                 <hr className="  lg:hidden border-1  w-full shadow-none border-gray-300 " />
 
-              
-                  <button
-                    type="button"
-                    className="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-tertiary "
-                  >
-                   Service
-                  </button>
-                
+                <button
+                  type="button"
+                  className="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 hover:text-white hover:bg-primary  "
+                >
+                  Service
+                </button>
+
                 <hr className="  lg:hidden border-1  w-full shadow-none border-gray-300 " />
 
                 <hr className="  lg:hidden border-1  w-full shadow-none border-gray-300 " />
-                  <button
-                    type="button"
-                    className="px-3 py-2 mx-3 mt-2   text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-tertiary "
-                  >
-                    Contact Us
-                  </button>
+                <button
+                  type="button"
+                  className="px-3 py-2 mx-3 mt-2   text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:text-white hover:bg-primary  "
+                >
+                  Contact Us
+                </button>
               </div>
 
               <div />
