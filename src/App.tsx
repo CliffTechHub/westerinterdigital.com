@@ -1,19 +1,21 @@
-import AboutUsComponent from "./components/AboutUsComponent";
-import HeroComponent from "./components/Hero.component";
-import OurServicesComponent from "./components/OurServicesComponent";
-import NavBarLayout from "./layout/NavBarLayout";
-
+import {HeroComponent,AboutUsComponent,OurServicesComponent } from './components';
+import { NavBarComponent} from "./layout";
 
 function App() {
-
-
-
   return (
     <>
-      <NavBarLayout />
-      <HeroComponent />
-      <AboutUsComponent />
-      <OurServicesComponent />
+      <section>
+        < NavBarComponent/>
+      </section>
+      <section>
+          <HeroComponent />
+     </section>
+      <section>
+        <AboutUsComponent />
+      </section>
+      <section>
+           <OurServicesComponent />
+   </section>
       
 
     </>

@@ -2,7 +2,6 @@
 
  const HeroComponent: React.FC = () => {
 
-
    return (
      <>
        <section className="py-20 bg-primary pattern  ">
