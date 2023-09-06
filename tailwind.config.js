@@ -1,13 +1,27 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+module.exports = {
+  purge: {
+    enabled: true,
+    content: [
+      '*.html',
+      './assets/js/main.js'
+    ]
+  },
   theme: {
     extend: {
-      colors: {
-        primary: "#003c6b",
-        secondary: "#003c6b",
+      inset: {
+        '100': '100%',
       },
+
+      padding: {
+        '120': '120px',
+      },
+
+      colors: {
+        'theme-color': '#361CC1',
+        'theme-color-2': '#FE7A7B'
+      }
     },
   },
+  variants: {},
   plugins: [],
-};
+}

@@ -1,9 +1,0 @@
-
-
-# Coming Soon 
-
-##  westerinterdigital.com    
-
-
-
-
