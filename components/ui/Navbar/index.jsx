@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import Brand from '../Brand'
-import NavLink from '../NavLink'
+
 
 const Navbar = () => {
 
@@ -10,10 +10,11 @@ const Navbar = () => {
     const { events } = useRouter();
 
     const navigation = [
-        { title: "Features", path: "#features" },
-        { title: "Our toolkit", path: "#toolkit" },
-        { title: "Testimonials", path: "#testimonials" },
-    ]
+      { title: "Features", path: "#About Us" },
+      { title: "Services", path: "#services" },
+      { title: "Teams", path: "#Teams" },
+      { title: "Contact", path: "#contact" },
+    ];
 
     useEffect(() => {
         // Close the navbar menu when navigate
@@ -54,8 +55,8 @@ const Navbar = () => {
                             </button>
                         </div>
                     </div>
-                    <div className={`flex-1 pb-3 mt-8 md:pb-0 md:mt-0 md:block ${state ? "" : "hidden"}`}>
-                        <ul className="text-gray-700 justify-end items-center space-y-6 md:flex md:space-x-6 md:space-y-0 md:text-gray-600 md:font-medium">
+                    <div className={`flex-1 pb-3 text-lg text-center md:border-none border-b mt-8 md:pb-0 md:mt-0 md:block ${state ? "" : "hidden"}`}>
+                        <ul className="text-gray-700 justify-center items-center space-y-6 md:flex md:space-x-6 md:space-y-0 md:text-gray-600 md:font-medium">
                             {
                                 navigation.map((item, idx) => {
                                     return (
@@ -70,14 +71,7 @@ const Navbar = () => {
                                     )
                                 })
                             }
-                            <li>
-                                <NavLink
-                                    href="/get-started"
-                                    className="block font-medium text-sm text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900 md:inline"
-                                >
-                                    Let's work
-                                </NavLink>
-                            </li>
+                            
                         </ul>
                     </div>
                 </div>

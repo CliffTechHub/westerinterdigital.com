@@ -4,9 +4,8 @@ import CTA from "../components/ui/CTA";
 import Features from "../components/ui/Features";
 import FooterCTA from "../components/ui/FooterCTA";
 import Hero from "../components/ui/Hero";
-import LogoGrid from "../components/ui/LogoGrid";
-import Testimonials from "../components/ui/Testimonials";
-import ToolKit from "../components/ui/ToolKit";
+import Teams from "../components/ui/Teams";
+import Services from "../components/ui/Services";
 
 export default function Home() {
   return (
@@ -15,14 +14,14 @@ export default function Home() {
         <meta name='robots' content='index' />
       </Head>
       <Hero />
-      <LogoGrid />
+    
       <GradientWrapper>
         <Features />
         <CTA />
       </GradientWrapper>
-      <ToolKit />
+      <Services/>
       <GradientWrapper>
-        <Testimonials />
+        <Teams />
       </GradientWrapper>
       <FooterCTA />
     </>
